@@ -108,14 +108,15 @@ body {
 /* new */
 
 #circleImage {
- margin-top: 10%;
+ margin-top: 5%;
 
 }
 
 .titleText {
+  color:white;
   margin-bottom: 5%;
   font-weight: bold;
-  text-shadow: 4px 4px 8px rgba(355, 1, 1, 1);
+  text-shadow: 4px 4px 50px rgba(300, 300, 300, 300);
 }
 
 .pull-right{
@@ -140,3 +141,7 @@ h1 {
 }
 
 #success_message{ display: none;}
+
+.navbar-brand{
+  color:white;
+}
