@@ -39,6 +39,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 #services {
@@ -59,7 +60,7 @@ body {
 }
 
 #about {
-    background: url('https://cdn.pixabay.com/photo/2017/04/04/22/27/skyscraper-2203337_960_720.jpg') no-repeat center center fixed;
+    background: url('https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_960_720.jpg') no-repeat center center fixed;
     display: table;
     height: 300px;
     position: relative;
@@ -74,12 +75,28 @@ body {
     opacity: 0.85;
 }
 
+#contact{
+  background: url('https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_960_720.jpg') no-repeat center center fixed;
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contact .panel {
+    opacity: 0.85;
+}
+
 
 
 #footer {
     background: url('https://cdn.pixabay.com/photo/2015/02/02/11/11/office-620823_960_720.jpg') no-repeat center center fixed;
     display: table;
-    height: 25%;
+    height: 15%;
     position: relative;
     width: 100%;
     -webkit-background-size: cover;
@@ -97,7 +114,8 @@ body {
 
 .titleText {
   margin-bottom: 5%;
-  text-shadow: 4px 4px 8px rgba(255, 99, 80, 1);
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgba(355, 1, 1, 1);
 }
 
 .pull-right{
@@ -120,3 +138,5 @@ h1 {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
 }
+
+#success_message{ display: none;}
